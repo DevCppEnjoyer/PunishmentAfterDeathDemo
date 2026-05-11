@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Pixelify Sans";
+  src: url("/fonts/pixelify-sans.woff2") format("woff2"),
+       url("/fonts/pixelify-sans.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ui-font: "Pixelify Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body {
+  font-family: var(--ui-font);
+  background-image: url("Background\ Menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.torpe2{
+  border-radius: 30px;
+  background-color: white;
+
+  /* Define o fundo branco apenas nesta caixa */
+    background-color: #ffffff;
+    
+    /* Limita a largura máxima da caixa (ajuste conforme necessário) */
+    max-width: 900px; 
+    
+    /* Define uma margem interna para o texto não ficar colado nas bordas */
+    padding: 40px; 
+    
+    
+    margin: 0 auto;
+
+    align-content: left; 
+    
+    /* Adiciona bordas arredondadas (como na sua imagem) */
+    border-radius: 32px; 
+    
+    /* Adiciona uma sombra suave para destacar a caixa do fundo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.showcase
+{
+  padding: 20px;
+  background-color: #ffffff;
+  width: 360px;
+  height: 203px;
+  border-radius: 30px;
+}
+
+.torpetexto{
+  border-radius: 30px; 
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.torpe3{
+  border-radius: 30px;
+
+  /* Define o fundo branco apenas nesta caixa */
+    
+    
+    align-content: center; 
+    
+    /* Adiciona bordas arredondadas (como na sua imagem) */
+    border-radius: 32px; 
+    
+    /* Adiciona uma sombra suave para destacar a caixa do fundo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.torpe{
+  border-radius: 30px;
+  background-color: white;
+
+  /* Define o fundo branco apenas nesta caixa */
+    background-color: #ffffff;
+    
+    /* Limita a largura máxima da caixa (ajuste conforme necessário) */
+    max-width: 900px; 
+    
+    /* Define uma margem interna para o texto não ficar colado nas bordas */
+    padding: 40px; 
+    
+    /* Centraliza a caixa na tela */
+    margin: 0 auto; 
+    
+    /* Adiciona bordas arredondadas (como na sua imagem) */
+    border-radius: 32px; 
+    
+    /* Adiciona uma sombra suave para destacar a caixa do fundo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+td{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+table{
+     margin-left: auto; 
+     margin-right: auto;
+}
+
+a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+header{
+  justify-content: center;
+  background-color: rgb(2, 0, 14);
+  color: white;
+} 
+
+nav
+  {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+.centralizado{
+     text-align: center;
+}
+
+td{
+    padding-inline: 20px;
+    text-align: justify;
+    vertical-align: top;  
+}   
+
