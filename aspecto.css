@@ -7,6 +7,13 @@
   font-display: swap;
 }
 
+@media (max-width: 768px) {
+  .sua-classe-de-grid-de-imagens {
+    grid-template-columns: repeat(2, 1fr); /* Muda para 2 colunas */
+    /* Ou use '1fr' para ficar uma imagem embaixo da outra */
+  }
+}
+
 :root {
   --ui-font: "Pixelify Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
