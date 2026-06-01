@@ -7,6 +7,15 @@
   font-display: swap;
 }
 
+
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 /* ISSO AQUI É O QUE ESTÁ FALTANDO: Aplicar a fonte aos elementos */
 body {
   font-family: "Pixelify Sans", sans-serif;
